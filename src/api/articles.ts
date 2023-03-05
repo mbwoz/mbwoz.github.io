@@ -1,6 +1,10 @@
 import type { Article } from '@/model/articles';
-import articles from '@/storage/articles.json';
 
 export const listArticles = async (): Promise<ReadonlyArray<Article>> => {
-  return articles;
+  return fetch('/storage/articles.json').then((response) => {
+    if (!response.ok) {
+      throw new Error(response.statusText);
+    }
+    return response.json();
+  });
 };
