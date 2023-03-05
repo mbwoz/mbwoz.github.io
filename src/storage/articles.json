@@ -1,0 +1,18 @@
+[
+  {
+    "issue": "1",
+    "title": "abc",
+    "tags": [
+      "a",
+      "f"
+    ]
+  },
+  {
+    "issue": "2",
+    "title": "cde",
+    "tags": [
+      "g",
+      "b"
+    ]
+  }
+]
