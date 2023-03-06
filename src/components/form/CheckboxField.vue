@@ -4,6 +4,36 @@ defineEmits<{ (e: 'onChange'): void }>();
 </script>
 
 <template>
-  <input type="checkbox" :checked="checked" @change="(e) => $emit('onChange')" />
-  <label>{{ label }}</label>
+  <div class="field">
+    <input type="checkbox" :checked="checked" @change="$emit('onChange')" />
+    <label>{{ label }}</label>
+  </div>
 </template>
+
+<style scoped>
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  cursor: pointer;
+  appearance: none;
+  outline: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid var(--accent_color);
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+input:checked {
+  background: var(--accent_color);
+}
+
+label {
+  display: block;
+  color: var(--accent_color);
+}
+</style>

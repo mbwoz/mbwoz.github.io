@@ -1,0 +1,23 @@
+:root {
+  --bgc_color: #ffffff;
+  --accent_color: #2951c2;
+  --dark_color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  overflow-x: hidden;
+  color: var(--dark_color);
+  background-color: var(--bgc_color);
+}
+
+a {
+  text-decoration: none;
+}

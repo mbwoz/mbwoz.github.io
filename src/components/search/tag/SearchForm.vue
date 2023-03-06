@@ -35,10 +35,11 @@ const addTag = () => {
     <SubmitButton label="Add tag" @on-click="addTag" />
   </div>
   <div>
-    <ul>
-      <li v-for="tag in form.selectedTags" :key="tag">
-        <RemovableTag :tag="tag" @remove-tag="(tag) => $emit('removeTag', tag)" />
-      </li>
-    </ul>
+    <RemovableTag
+      v-for="tag in form.selectedTags"
+      :key="tag"
+      :tag="tag"
+      @remove-tag="(tag) => $emit('removeTag', tag)"
+    />
   </div>
 </template>

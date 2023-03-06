@@ -38,6 +38,19 @@ const onIncludeTags = () => {
 </script>
 
 <template>
-  <SearchForm :form="form" @on-search-change="onSearchChange" @on-include-tags="onIncludeTags" />
-  <ArticlesList :articles="filtered" />
+  <div>
+    <SearchForm
+      class="form"
+      :form="form"
+      @on-search-change="onSearchChange"
+      @on-include-tags="onIncludeTags"
+    />
+    <ArticlesList :articles="filtered" />
+  </div>
 </template>
+
+<style scoped>
+.form {
+  margin-bottom: 30px;
+}
+</style>
