@@ -16,18 +16,20 @@ defineEmits<{
 
 <template>
   <div class="form">
-    <TextInputField
-      class="search-input"
-      placeholder="nuclear power"
-      :value="form.searchText"
-      @on-input="(e) => $emit('onSearchChange', e)"
-    />
-    <CheckboxField
-      class="tags-checkbox"
-      :checked="form.includeTags"
-      label="include tags"
-      @on-change="$emit('onIncludeTags')"
-    />
+    <div class="search-input">
+      <TextInputField
+        placeholder="nuclear power"
+        :value="form.searchText"
+        @on-input="(e) => $emit('onSearchChange', e)"
+      />
+    </div>
+    <div class="tags-checkbox">
+      <CheckboxField
+        :checked="form.includeTags"
+        label="include tags"
+        @on-change="$emit('onIncludeTags')"
+      />
+    </div>
   </div>
 </template>
 

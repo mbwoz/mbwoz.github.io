@@ -31,15 +31,48 @@ const addTag = () => {
 
 <template>
   <div>
-    <SelectField :selected="selectedTag" :options="tags" @on-change="updateSelectedTag" />
-    <SubmitButton label="Add tag" @on-click="addTag" />
-  </div>
-  <div>
-    <RemovableTag
-      v-for="tag in form.selectedTags"
-      :key="tag"
-      :tag="tag"
-      @remove-tag="(tag) => $emit('removeTag', tag)"
-    />
+    <div class="form">
+      <div class="tag-select">
+        <SelectField :selected="selectedTag" :options="tags" @on-change="updateSelectedTag" />
+      </div>
+      <div class="tag-submit">
+        <SubmitButton label="Add tag" @on-click="addTag" />
+      </div>
+    </div>
+    <div :class="['tags', form.selectedTags.length > 0 ? 'tags-non-empty' : '']">
+      <RemovableTag
+        v-for="tag in form.selectedTags"
+        :key="tag"
+        :tag="tag"
+        @remove-tag="(tag) => $emit('removeTag', tag)"
+      />
+    </div>
   </div>
 </template>
+
+<style scoped>
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.form .tag-select {
+  flex-grow: 5;
+}
+
+.form .tag-submit {
+  flex-grow: 1;
+}
+
+.tags {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tags-non-empty {
+  margin-top: 20px;
+}
+</style>

@@ -35,6 +35,16 @@ const removeTag = (tagToRemove: string) => {
 </script>
 
 <template>
-  <SearchForm :form="form" :tags="tags" @add-tag="addTag" @remove-tag="removeTag" />
-  <ArticlesList :articles="filtered" />
+  <div>
+    <div class="form">
+      <SearchForm :form="form" :tags="tags" @add-tag="addTag" @remove-tag="removeTag" />
+    </div>
+    <ArticlesList :articles="filtered" />
+  </div>
 </template>
+
+<style scoped>
+.form {
+  margin-bottom: 30px;
+}
+</style>

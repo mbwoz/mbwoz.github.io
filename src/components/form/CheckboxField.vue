@@ -15,6 +15,7 @@ defineEmits<{ (e: 'onChange'): void }>();
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 input {
@@ -24,7 +25,6 @@ input {
   height: 20px;
   width: 20px;
   border: 1px solid var(--accent_color);
-  margin-right: 10px;
   border-radius: 4px;
 }
 
@@ -32,8 +32,11 @@ input:checked {
   background: var(--accent_color);
 }
 
+input:hover {
+  outline: 1px solid var(--accent_color);
+}
+
 label {
-  display: block;
   color: var(--accent_color);
 }
 </style>

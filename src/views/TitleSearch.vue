@@ -39,12 +39,13 @@ const onIncludeTags = () => {
 
 <template>
   <div>
-    <SearchForm
-      class="form"
-      :form="form"
-      @on-search-change="onSearchChange"
-      @on-include-tags="onIncludeTags"
-    />
+    <div class="form">
+      <SearchForm
+        :form="form"
+        @on-search-change="onSearchChange"
+        @on-include-tags="onIncludeTags"
+      />
+    </div>
     <ArticlesList :articles="filtered" />
   </div>
 </template>

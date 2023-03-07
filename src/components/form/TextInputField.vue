@@ -14,7 +14,8 @@ defineEmits<{ (e: 'onInput', event: Event): void }>();
 
 <style scoped>
 input {
-  padding: 10px 10px;
+  width: 100%;
+  padding: 10px;
   border: 1px solid var(--accent_color);
   border-radius: 5px;
   font-size: inherit;

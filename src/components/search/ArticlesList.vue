@@ -24,8 +24,7 @@ defineProps<{ articles: ReadonlyArray<Article> }>();
 li {
   list-style-type: none;
   padding: 8px;
-  border-bottom: 1px solid var(--dark_color);
-
+  border-bottom: 1px solid var(--accent_color);
   display: flex;
   align-items: center;
   gap: 15px;
