@@ -17,6 +17,7 @@ select {
   background-color: var(--bgc_color);
   border-radius: 5px;
   border: 1px solid var(--accent_color);
+  color: var(--dark_color);
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
