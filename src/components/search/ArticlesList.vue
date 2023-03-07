@@ -22,19 +22,19 @@ defineProps<{ articles: ReadonlyArray<Article> }>();
 
 <style scoped>
 li {
-  list-style-type: none;
-  padding: 8px;
+  align-items: center;
   border-bottom: 1px solid var(--accent_color);
   display: flex;
-  align-items: center;
   gap: 15px;
+  list-style-type: none;
+  padding: 8px;
 }
 
 li .dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
   background-color: var(--accent_color);
+  border-radius: 100%;
+  height: 10px;
+  width: 10px;
 }
 
 li .issue {
@@ -46,9 +46,9 @@ li .title {
 }
 
 li .label {
+  color: var(--accent_color);
   display: inline-block;
   font-weight: 700;
-  color: var(--accent_color);
   margin-right: 1ex;
 }
 

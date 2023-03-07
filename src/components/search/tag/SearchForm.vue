@@ -52,10 +52,10 @@ const addTag = () => {
 
 <style scoped>
 .form {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   gap: 20px;
+  justify-content: center;
 }
 
 .form .tag-select {
@@ -68,8 +68,8 @@ const addTag = () => {
 
 .tags {
   display: flex;
-  gap: 20px;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .tags-non-empty {

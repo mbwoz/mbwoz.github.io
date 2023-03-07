@@ -14,15 +14,17 @@ defineEmits<{ (e: 'onInput', event: Event): void }>();
 
 <style scoped>
 input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid var(--accent_color);
+  appearance: none;
   border-radius: 5px;
-  font-size: inherit;
+  border: 1px solid var(--accent_color);
   font-family: inherit;
+  font-size: inherit;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
 }
 
 input:focus {
-  outline: 1px solid var(--accent_color);
+  box-shadow: 0 0 0 1px var(--accent_color);
 }
 </style>

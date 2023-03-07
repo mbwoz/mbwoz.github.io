@@ -11,24 +11,24 @@ defineEmits<{ (e: 'onClick'): void }>();
 
 <style scoped>
 div {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 button {
+  background-color: var(--bgc_color);
+  border-radius: 5px;
+  border: 1px solid var(--accent_color);
+  color: var(--accent_color);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
   min-width: 150px;
   padding: 10px;
-  cursor: pointer;
-  font-size: inherit;
-  font-family: inherit;
-  border: 1px solid var(--accent_color);
-  border-radius: 5px;
-  color: var(--accent_color);
-  background-color: var(--bgc_color);
 }
 
 button:hover {
-  outline: 1px solid var(--accent_color);
+  box-shadow: 0 0 0 1px var(--accent_color);
 }
 </style>

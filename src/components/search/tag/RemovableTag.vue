@@ -12,15 +12,15 @@ defineEmits<{ (e: 'removeTag', tag: string): void }>();
 
 <style scoped>
 .tag {
-  padding: 10px;
-  font-size: inherit;
-  font-family: inherit;
-  border: 1px solid var(--accent_color);
   border-radius: 5px;
+  border: 1px solid var(--accent_color);
   color: var(--accent_color);
   display: flex;
-  justify-content: space-between;
+  font-family: inherit;
+  font-size: inherit;
   gap: 20px;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .cross {

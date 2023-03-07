@@ -35,10 +35,10 @@ defineEmits<{
 
 <style scoped>
 .form {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   gap: 20px;
+  justify-content: center;
 }
 
 .form .search-input {

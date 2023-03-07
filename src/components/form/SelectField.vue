@@ -13,19 +13,20 @@ defineEmits<{ (e: 'onChange', event: Event): void }>();
 
 <style scoped>
 select {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid var(--accent_color);
-  border-radius: 5px;
-  font-size: inherit;
-  font-family: inherit;
-  background-color: var(--bgc_color);
   appearance: none;
+  background-color: var(--bgc_color);
+  border-radius: 5px;
+  border: 1px solid var(--accent_color);
   cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
 }
 
 select:focus {
-  outline: 1px solid var(--accent_color);
+  box-shadow: 0 0 0 1px var(--accent_color);
 }
 
 .select {
@@ -33,15 +34,15 @@ select:focus {
 }
 
 .select::after {
-  position: absolute;
-  content: '';
-  width: 6px;
-  height: 6px;
-  display: inline-block;
-  top: calc(50% - 5px);
-  right: 12px;
   box-shadow: 1px 1px 0 0 var(--accent_color);
-  transform: rotate(45deg);
+  content: '';
+  display: inline-block;
+  height: 6px;
   pointer-events: none;
+  position: absolute;
+  right: 12px;
+  top: calc(50% - 5px);
+  transform: rotate(45deg);
+  width: 6px;
 }
 </style>

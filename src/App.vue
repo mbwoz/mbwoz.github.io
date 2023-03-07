@@ -27,25 +27,25 @@ header .title {
   color: var(--accent_color);
   font-size: 30pt;
   font-weight: 700;
-  text-align: center;
   padding: 30px 0;
+  text-align: center;
 }
 
 header nav {
   display: flex;
-  justify-content: center;
   gap: 10px;
+  justify-content: center;
   padding-bottom: 20px;
 }
 
 nav .nav-item {
-  width: 200px;
-  height: 45px;
-  color: var(--accent_color);
-  display: flex;
   align-items: center;
-  justify-content: center;
+  color: var(--accent_color);
   cursor: pointer;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  width: 200px;
 }
 
 .nav-item-active {
@@ -53,18 +53,18 @@ nav .nav-item {
 }
 
 .content {
-  width: 65vw;
   margin: auto;
+  width: 65vw;
 }
 
 footer {
-  width: 100vw;
-  color: var(--accent_color);
-  opacity: 0.5;
-  display: flex;
   align-items: center;
+  color: var(--accent_color);
+  display: flex;
   justify-content: center;
   margin-top: 60px;
+  opacity: 0.5;
   padding: 20px;
+  width: 100vw;
 }
 </style>
