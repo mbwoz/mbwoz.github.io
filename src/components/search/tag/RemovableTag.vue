@@ -4,9 +4,9 @@ defineEmits<{ (e: 'removeTag', tag: string): void }>();
 </script>
 
 <template>
-  <div class="tag" @click="$emit('removeTag', tag)">
+  <div class="tag">
     <p>{{ tag }}</p>
-    <p class="cross">&#x2715;</p>
+    <p class="cross" @click="$emit('removeTag', tag)">&#x2715;</p>
   </div>
 </template>
 
