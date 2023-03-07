@@ -17,6 +17,10 @@ const router = createRouter({
       path: '/tag-search',
       name: 'tag-search',
       component: () => import('@/views/TagSearch.vue')
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: '/'
     }
   ]
 });
