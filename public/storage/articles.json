@@ -1,18 +1,133 @@
 [
   {
-    "issue": "1",
-    "title": "abc",
+    "issue": "How It Works 001",
+    "title": "Extreme weather",
     "tags": [
-      "a",
-      "f"
+      "tsunami",
+      "tornado",
+      "hurricane",
+      "storm",
+      "thunder",
+      "lightning",
+      "blizzard",
+      "waterspout",
+      "flood"
     ]
   },
   {
-    "issue": "2",
-    "title": "cde",
+    "issue": "How It Works 001",
+    "title": "Diamonds take forever",
     "tags": [
-      "g",
-      "b"
+      "diamond",
+      "carbon"
+    ]
+  },
+  {
+    "issue": "How It Works 001",
+    "title": "How do bees make honey?",
+    "tags": [
+      "bee",
+      "honey"
+    ]
+  },
+  {
+    "issue": "How It Works 001",
+    "title": "How do snakes bite?",
+    "tags": [
+      "snake",
+      "bite",
+      "venom"
+    ]
+  },
+  {
+    "issue": "How It Works 001",
+    "title": "Birds' wings explained",
+    "tags": [
+      "bird",
+      "fly",
+      "wing",
+      "lift"
+    ]
+  },
+  {
+    "issue": "How It Works 001",
+    "title": "The ozone layer explained",
+    "tags": [
+      "ozone",
+      "atmosphere",
+      "hole",
+      "Earth"
+    ]
+  },
+  {
+    "issue": "How It Works 001",
+    "title": "The structure of the Earth's atmosphere",
+    "tags": [
+      "Earth",
+      "atmosphere",
+      "stratosphere",
+      "troposphere"
+    ]
+  },
+  {
+    "issue": "How It Works 001",
+    "title": "The ultimate hunting machine",
+    "tags": [
+      "shark",
+      "hunt"
+    ]
+  },
+  {
+    "issue": "How It Works 001",
+    "title": "Anatomy of a volcano",
+    "tags": [
+      "volcano",
+      "crater",
+      "vent",
+      "shield",
+      "cinder",
+      "composite",
+      "fissure",
+      "surface"
+    ]
+  },
+  {
+    "issue": "How It Works 001",
+    "title": "How vision and sight works",
+    "tags": [
+      "eye",
+      "vision",
+      "sight",
+      "retina",
+      "lens",
+      "sclera",
+      "iris",
+      "cornea",
+      "rod",
+      "cone",
+      "pupil",
+      "color"
+    ]
+  },
+  {
+    "issue": "How It Works 001",
+    "title": "How do boats stay afloat?",
+    "tags": [
+      "ship",
+      "boat",
+      "float",
+      "Archimedes"
+    ]
+  },
+  {
+    "issue": "How It Works 001",
+    "title": "Fish gills - a gas exchange story",
+    "tags": [
+      "fish",
+      "gill",
+      "oxygen",
+      "capillary",
+      "water"
     ]
   }
 ]
