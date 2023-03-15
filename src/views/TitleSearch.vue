@@ -12,9 +12,8 @@ const form: Ref<{ searchText: string; includeTags: boolean }> = ref({
 
 const articles: Ref<ReadonlyArray<Article>> = ref([]);
 
-Promise.resolve(listArticles()).then((data) => {
-  articles.value = data;
-});
+Promise.resolve(listArticles()).then((data) =>
+  articles.value = data.sort((a, b) => a.title.localeCompare(b.title) || a.issue.localeCompare(b.issue)));
 
 const filtered: ComputedRef<ReadonlyArray<Article>> = computed(() =>
   articles.value.filter(

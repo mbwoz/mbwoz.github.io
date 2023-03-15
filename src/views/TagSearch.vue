@@ -8,7 +8,8 @@ import { type Ref, ref, computed, type ComputedRef } from 'vue';
 const form: Ref<{ selectedTags: ReadonlyArray<string> }> = ref({ selectedTags: [] });
 const articles: Ref<ReadonlyArray<Article>> = ref([]);
 
-Promise.resolve(listArticles()).then((data) => (articles.value = data));
+Promise.resolve(listArticles()).then((data) => (articles.value = data
+  .sort((a, b) => a.title.localeCompare(b.title) || a.issue.localeCompare(b.issue))));
 
 const tags: ComputedRef<ReadonlyArray<string>> = computed(() => {
   const tags = new Set<string>();
