@@ -6,7 +6,7 @@ defineProps<{ articles: ReadonlyArray<Article> }>();
 
 <template>
   <ul>
-    <li v-for="{ issue, title } in articles" :key="`${issue}:${title}`">
+    <li v-for="{ id, issue, title } in articles" :key="id">
       <div class="dot"></div>
       <div class="issue">
         <p class="label">issue:</p>
