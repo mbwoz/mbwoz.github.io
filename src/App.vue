@@ -15,7 +15,7 @@
     <RouterView />
   </div>
 
-  <footer>copyright &copy; 2023</footer>
+  <footer></footer>
 </template>
 
 <style scoped>

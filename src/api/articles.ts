@@ -8,3 +8,13 @@ export const listArticles = async (): Promise<Array<Article>> => {
     return response.json();
   });
 };
+
+export const getArticle = async (id: number): Promise<Article> => {
+  return listArticles().then(articles => {
+    const article: Article | undefined = articles.find(article => article.id === id)
+    if (!article) {
+      throw new Error(`Article with id: ${id} not found`);
+    }
+    return article;
+  });
+};

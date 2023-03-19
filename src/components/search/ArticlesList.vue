@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Article } from '@/model/articles';
+import LabelValue from '../attributes/LabelValue.vue';
 
 defineProps<{ articles: ReadonlyArray<Article> }>();
 </script>
@@ -8,14 +9,11 @@ defineProps<{ articles: ReadonlyArray<Article> }>();
   <ul>
     <li v-for="{ id, issue, title } in articles" :key="id">
       <div class="dot"></div>
-      <div class="issue">
-        <p class="label">issue:</p>
-        <p class="value">{{ issue }}</p>
-      </div>
-      <div class="title">
-        <p class="label">title:</p>
-        <p class="value">{{ title }}</p>
-      </div>
+      <LabelValue label="issue:" :value="issue" />
+      <LabelValue label="title:" :value="title" />
+      <RouterLink :to="`/articles/${id}`" target="_blank">
+        <div class="more"></div>
+      </RouterLink>
     </li>
   </ul>
 </template>
@@ -25,7 +23,7 @@ li {
   align-items: center;
   border-bottom: 1px solid var(--accent_color);
   display: grid;
-  grid-template-columns: 10px 2fr 3fr;
+  grid-template-columns: 10px 2fr 3fr 10px;
   gap: 15px;
   list-style-type: none;
   padding: 8px;
@@ -36,6 +34,15 @@ li .dot {
   border-radius: 100%;
   height: 10px;
   width: 10px;
+}
+
+li .more {
+  border-bottom: 5px solid transparent;
+  border-left:10px solid var(--accent_color);
+  border-top: 5px solid transparent;
+  cursor: pointer;
+  height: 0;
+  width: 0;
 }
 
 li .label {
