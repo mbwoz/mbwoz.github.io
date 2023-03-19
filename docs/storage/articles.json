@@ -1,541 +1,6 @@
 [
   {
-    "issue": "How It Works 001",
-    "title": "Extreme weather",
-    "tags": [
-      "geography",
-      "atmosphere",
-      "climate"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Diamonds take forever",
-    "tags": [
-      "geography",
-      "geology",
-      "chemistry"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How do bees make honey?",
-    "tags": [
-      "biology",
-      "insects"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How do snakes bite?",
-    "tags": [
-      "biology",
-      "reptiles"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Birds' wings explained",
-    "tags": [
-      "biology",
-      "physics",
-      "birds"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "The ozone layer explained",
-    "tags": [
-      "geography",
-      "chemistry",
-      "atmosphere"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "The structure of the Earth's atmosphere",
-    "tags": [
-      "geography",
-      "atmosphere"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "The ultimate hunting machine",
-    "tags": [
-      "biology",
-      "fishes",
-      "predators"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Anatomy of a volcano",
-    "tags": [
-      "geography",
-      "geology",
-      "volcanoes"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How vision and sight works",
-    "tags": [
-      "biology",
-      "human body",
-      "physics"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How do boats stay afloat?",
-    "tags": [
-      "physics",
-      "technology"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Fish gills - a gas exchange story",
-    "tags": [
-      "biology",
-      "fishes"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "What is \"brain freeze\"?",
-    "tags": [
-      "biology",
-      "human body"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Thermite",
-    "tags": [
-      "chemistry",
-      "reactions"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Understanding how x-rays work",
-    "tags": [
-      "physics",
-      "biology",
-      "technology"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Static electricity",
-    "tags": [
-      "physics",
-      "electricity"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "The heart",
-    "tags": [
-      "biology",
-      "human body"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How fireworks explode",
-    "tags": [
-      "physics",
-      "chemistry",
-      "reactions"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Why do we get drunk?",
-    "tags": [
-      "biology",
-      "human body"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Immunization",
-    "tags": [
-      "biology",
-      "human body"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "What are atoms?",
-    "tags": [
-      "physics",
-      "chemistry",
-      "particles"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How electromagnets work",
-    "tags": [
-      "physics",
-      "electromagnetism"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Large Hadron Collider",
-    "tags": [
-      "physics",
-      "particles",
-      "technology"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Eurofighter Typhoon",
-    "tags": [
-      "technology",
-      "planes",
-      "military"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Formula One cockpit",
-    "tags": [
-      "technology",
-      "cars"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Car vending machine",
-    "tags": [
-      "technology",
-      "cars"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Bugatti Veyron",
-    "tags": [
-      "technology",
-      "cars"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How cat's eye reflectors work",
-    "tags": [
-      "technology",
-      "cars"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Ceramic breaks",
-    "tags": [
-      "technology",
-      "cars"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Ejection seats explained",
-    "tags": [
-      "technology",
-      "planes"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "What is the sound barrier",
-    "tags": [
-      "technology",
-      "planes",
-      "physics",
-      "sound"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Nuclear submarine",
-    "tags": [
-      "technology",
-      "submarines",
-      "military"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Inside the Sun",
-    "tags": [
-      "geography",
-      "astronomy",
-      "physics"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Radio telescopes explained",
-    "tags": [
-      "technology",
-      "physics",
-      "waves"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "What are Saturn's rings made of",
-    "tags": [
-      "geography",
-      "astronomy",
-      "planets"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Van Allen radiation belt explained",
-    "tags": [
-      "geography",
-      "physics",
-      "astronomy",
-      "particles"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "SpaceShipTwo",
-    "tags": [
-      "technology",
-      "spacecrafts"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "What is gravity?",
-    "tags": [
-      "physics",
-      "forces"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How ocean tides work",
-    "tags": [
-      "geography",
-      "astronomy",
-      "hydrology"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Adaptive optics recreate an image",
-    "tags": [
-      "physics",
-      "astronomy",
-      "optics"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Space suits",
-    "tags": [
-      "physics",
-      "astronomy",
-      "technology"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Dextre the space robot",
-    "tags": [
-      "technology",
-      "astronomy",
-      "robotics"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How a bionic eye works",
-    "tags": [
-      "biology",
-      "technology",
-      "human body"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Eco bulbs",
-    "tags": [
-      "ecology",
-      "technology",
-      "electricity"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "AIM-9 Sidewinder missiles",
-    "tags": [
-      "technology",
-      "military"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How radar finds objects",
-    "tags": [
-      "technology",
-      "physics",
-      "waves"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Understanding digital sound",
-    "tags": [
-      "technology",
-      "physics",
-      "waves"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Starting your car without a key",
-    "tags": [
-      "technology",
-      "cars"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Frothy beer head",
-    "tags": [
-      "chemistry",
-      "liquids",
-      "food"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Protect your PC with firewalls",
-    "tags": [
-      "IT",
-      "security"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Getting to grips with Geiger Counters",
-    "tags": [
-      "technology",
-      "particles",
-      "radiation",
-      "physics"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "GPS navigation",
-    "tags": [
-      "technology",
-      "geography",
-      "navigation"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "DVD burning explained",
-    "tags": [
-      "technology",
-      "IT",
-      "memory"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Night-vision goggles",
-    "tags": [
-      "technology",
-      "military"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How does DSLR camera work?",
-    "tags": [
-      "technology",
-      "photography"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How 3D movies are made",
-    "tags": [
-      "physics",
-      "optics",
-      "technology"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Inside a medieval castle",
-    "tags": [
-      "history",
-      "middle ages",
-      "buildings"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Guillotine",
-    "tags": [
-      "history",
-      "inventions",
-      "french revolution"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Mummification",
-    "tags": [
-      "history",
-      "ancient",
-      "egypt"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "How T-rex hunted prey",
-    "tags": [
-      "history",
-      "prehistory",
-      "dinosaurs",
-      "biology"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Flintlock pistol",
-    "tags": [
-      "history",
-      "weapons"
-    ]
-  },
-  {
-    "issue": "How It Works 001",
-    "title": "Heraldry explained",
-    "tags": [
-      "history",
-      "heraldry",
-      "middle ages"
-    ]
-  },
-  {
+    "id": 1,
     "issue": "How It Works 158",
     "title": "Edge of the universe",
     "tags": [
@@ -545,6 +10,7 @@
     ]
   },
   {
+    "id": 2,
     "issue": "How It Works 158",
     "title": "How the planets orbit",
     "tags": [
@@ -554,6 +20,7 @@
     ]
   },
   {
+    "id": 3,
     "issue": "How It Works 158",
     "title": "What is gravity?",
     "tags": [
@@ -563,6 +30,7 @@
     ]
   },
   {
+    "id": 4,
     "issue": "How It Works 158",
     "title": "Meet the poison dart frogs",
     "tags": [
@@ -571,6 +39,7 @@
     ]
   },
   {
+    "id": 5,
     "issue": "How It Works 158",
     "title": "The most polluted places on Earth",
     "tags": [
@@ -580,6 +49,7 @@
     ]
   },
   {
+    "id": 6,
     "issue": "How It Works 158",
     "title": "Camel anatomy: humps to hooves",
     "tags": [
@@ -589,6 +59,7 @@
     ]
   },
   {
+    "id": 7,
     "issue": "How It Works 158",
     "title": "Super tractors",
     "tags": [
@@ -598,6 +69,7 @@
     ]
   },
   {
+    "id": 8,
     "issue": "How It Works 158",
     "title": "Who were the Knights Templar?",
     "tags": [
@@ -607,6 +79,7 @@
     ]
   },
   {
+    "id": 9,
     "issue": "How It Works 158",
     "title": "Why the Maya civilization collapsed",
     "tags": [
@@ -616,6 +89,7 @@
     ]
   },
   {
+    "id": 10,
     "issue": "How It Works 158",
     "title": "Inside Bath's Royal Crescent",
     "tags": [
@@ -624,6 +98,7 @@
     ]
   },
   {
+    "id": 11,
     "issue": "How It Works 158",
     "title": "How Bitcoin mining works",
     "tags": [
@@ -633,6 +108,7 @@
     ]
   },
   {
+    "id": 12,
     "issue": "How It Works 158",
     "title": "Folding electric bike teardown",
     "tags": [
@@ -641,6 +117,7 @@
     ]
   },
   {
+    "id": 13,
     "issue": "How It Works 158",
     "title": "What if Earth was flat?",
     "tags": [
@@ -649,6 +126,7 @@
     ]
   },
   {
+    "id": 14,
     "issue": "How It Works 158",
     "title": "What are antioxidants?",
     "tags": [
@@ -659,6 +137,7 @@
     ]
   },
   {
+    "id": 15,
     "issue": "How It Works 158",
     "title": "The ozone layer explained",
     "tags": [
@@ -667,6 +146,7 @@
     ]
   },
   {
+    "id": 16,
     "issue": "How It Works 157",
     "title": "What are UFOs?",
     "tags": [
@@ -678,6 +158,7 @@
     ]
   },
   {
+    "id": 17,
     "issue": "How It Works 157",
     "title": "What do planets sound like?",
     "tags": [
@@ -687,6 +168,7 @@
     ]
   },
   {
+    "id": 18,
     "issue": "How It Works 157",
     "title": "What is the multiverse?",
     "tags": [
@@ -695,6 +177,7 @@
     ]
   },
   {
+    "id": 19,
     "issue": "How It Works 157",
     "title": "NASA on Mars",
     "tags": [
@@ -705,6 +188,7 @@
     ]
   },
   {
+    "id": 20,
     "issue": "How It Works 157",
     "title": "Communism vs fascism",
     "tags": [
@@ -713,6 +197,7 @@
     ]
   },
   {
+    "id": 21,
     "issue": "How It Works 157",
     "title": "Wonders of the Lycurgus Cup",
     "tags": [
@@ -722,6 +207,7 @@
     ]
   },
   {
+    "id": 22,
     "issue": "How It Works 157",
     "title": "Electricity basics",
     "tags": [
@@ -730,6 +216,7 @@
     ]
   },
   {
+    "id": 23,
     "issue": "How It Works 157",
     "title": "How luminol works",
     "tags": [
@@ -737,6 +224,7 @@
     ]
   },
   {
+    "id": 24,
     "issue": "How It Works 157",
     "title": "Why your heart beats",
     "tags": [
@@ -745,6 +233,7 @@
     ]
   },
   {
+    "id": 25,
     "issue": "How It Works 157",
     "title": "Centrifugal vs centripetal",
     "tags": [
@@ -753,6 +242,7 @@
     ]
   },
   {
+    "id": 26,
     "issue": "How It Works 157",
     "title": "What is the darknet?",
     "tags": [
@@ -761,6 +251,7 @@
     ]
   },
   {
+    "id": 27,
     "issue": "How It Works 157",
     "title": "How plasma cutters work",
     "tags": [
@@ -769,6 +260,7 @@
     ]
   },
   {
+    "id": 28,
     "issue": "How It Works 157",
     "title": "Journey to the Carboniferous period",
     "tags": [
@@ -777,6 +269,7 @@
     ]
   },
   {
+    "id": 29,
     "issue": "How It Works 157",
     "title": "The world's deadliest snakes",
     "tags": [
@@ -785,6 +278,7 @@
     ]
   },
   {
+    "id": 30,
     "issue": "How It Works 157",
     "title": "Inside the secret space plane",
     "tags": [
@@ -793,6 +287,7 @@
     ]
   },
   {
+    "id": 31,
     "issue": "How It Works 156",
     "title": "Gadgets with license to thrill",
     "tags": [
@@ -800,6 +295,7 @@
     ]
   },
   {
+    "id": 32,
     "issue": "How It Works 156",
     "title": "How solar panel work",
     "tags": [
@@ -809,6 +305,7 @@
     ]
   },
   {
+    "id": 33,
     "issue": "How It Works 156",
     "title": "Computer keyboard tech explained",
     "tags": [
@@ -817,6 +314,7 @@
     ]
   },
   {
+    "id": 34,
     "issue": "How It Works 156",
     "title": "How does Google Earth work?",
     "tags": [
@@ -825,6 +323,7 @@
     ]
   },
   {
+    "id": 35,
     "issue": "How It Works 156",
     "title": "Hydrogen bus power",
     "tags": [
@@ -833,6 +332,7 @@
     ]
   },
   {
+    "id": 36,
     "issue": "How It Works 156",
     "title": "How our climate is changing",
     "tags": [
@@ -842,6 +342,7 @@
     ]
   },
   {
+    "id": 37,
     "issue": "How It Works 156",
     "title": "10 deadly volcanic eruptions",
     "tags": [
@@ -850,6 +351,7 @@
     ]
   },
   {
+    "id": 38,
     "issue": "How It Works 156",
     "title": "Amazon of the ocean",
     "tags": [
@@ -859,6 +361,7 @@
     ]
   },
   {
+    "id": 39,
     "issue": "How It Works 156",
     "title": "What is the Ark of the Covenant?",
     "tags": [
@@ -868,6 +371,7 @@
     ]
   },
   {
+    "id": 40,
     "issue": "How It Works 156",
     "title": "Welcome to the cradle of civilization",
     "tags": [
@@ -877,6 +381,7 @@
     ]
   },
   {
+    "id": 41,
     "issue": "How It Works 156",
     "title": "Could we build a total recall?",
     "tags": [
@@ -885,6 +390,7 @@
     ]
   },
   {
+    "id": 42,
     "issue": "How It Works 156",
     "title": "Testing Hawking's theories",
     "tags": [
@@ -894,6 +400,7 @@
     ]
   },
   {
+    "id": 43,
     "issue": "How It Works 156",
     "title": "How babies are made?",
     "tags": [
@@ -903,6 +410,7 @@
     ]
   },
   {
+    "id": 44,
     "issue": "How It Works 156",
     "title": "Shampoo science",
     "tags": [
@@ -912,6 +420,7 @@
     ]
   },
   {
+    "id": 45,
     "issue": "How It Works 156",
     "title": "The wonder of water",
     "tags": [
@@ -920,6 +429,7 @@
     ]
   },
   {
+    "id": 46,
     "issue": "How It Works 155",
     "title": "The story of the Earth",
     "tags": [
@@ -930,6 +440,7 @@
     ]
   },
   {
+    "id": 47,
     "issue": "How It Works 155",
     "title": "How to survive almost everywhere",
     "tags": [
@@ -939,6 +450,7 @@
     ]
   },
   {
+    "id": 48,
     "issue": "How It Works 155",
     "title": "How firestorms form",
     "tags": [
@@ -948,6 +460,7 @@
     ]
   },
   {
+    "id": 49,
     "issue": "How It Works 155",
     "title": "Deep space probes",
     "tags": [
@@ -958,6 +471,7 @@
     ]
   },
   {
+    "id": 50,
     "issue": "How It Works 155",
     "title": "Meet your teeth",
     "tags": [
@@ -966,6 +480,7 @@
     ]
   },
   {
+    "id": 51,
     "issue": "How It Works 155",
     "title": "Incredible ice",
     "tags": [
@@ -974,6 +489,7 @@
     ]
   },
   {
+    "id": 52,
     "issue": "How It Works 155",
     "title": "Carbon: the multi-tool of elements",
     "tags": [
@@ -983,6 +499,7 @@
     ]
   },
   {
+    "id": 53,
     "issue": "How It Works 155",
     "title": "What happens to radioactive waste?",
     "tags": [
@@ -993,6 +510,7 @@
     ]
   },
   {
+    "id": 54,
     "issue": "How It Works 155",
     "title": "Mean",
     "tags": [
@@ -1002,6 +520,7 @@
     ]
   },
   {
+    "id": 55,
     "issue": "How It Works 155",
     "title": "Who was Napoleon Bonaparte?",
     "tags": [
@@ -1010,6 +529,7 @@
     ]
   },
   {
+    "id": 56,
     "issue": "How It Works 155",
     "title": "Dust bowl disaster",
     "tags": [
@@ -1020,6 +540,7 @@
     ]
   },
   {
+    "id": 57,
     "issue": "How It Works 155",
     "title": "How to read family trees?",
     "tags": [
@@ -1028,6 +549,7 @@
     ]
   },
   {
+    "id": 58,
     "issue": "How It Works 154",
     "title": "12 unbelievable inventions",
     "tags": [
@@ -1037,6 +559,7 @@
     ]
   },
   {
+    "id": 59,
     "issue": "How It Works 154",
     "title": "How a city works",
     "tags": [
@@ -1045,6 +568,7 @@
     ]
   },
   {
+    "id": 60,
     "issue": "How It Works 154",
     "title": "How microchips are made?",
     "tags": [
@@ -1053,6 +577,7 @@
     ]
   },
   {
+    "id": 61,
     "issue": "How It Works 154",
     "title": "Toaster technology",
     "tags": [
@@ -1061,6 +586,7 @@
     ]
   },
   {
+    "id": 62,
     "issue": "How It Works 154",
     "title": "Asteroids, moons and dwarf planets",
     "tags": [
@@ -1069,6 +595,7 @@
     ]
   },
   {
+    "id": 63,
     "issue": "How It Works 154",
     "title": "How satellites fall to Earth",
     "tags": [
@@ -1077,6 +604,7 @@
     ]
   },
   {
+    "id": 64,
     "issue": "How It Works 154",
     "title": "Train journey back in time",
     "tags": [
@@ -1085,6 +613,7 @@
     ]
   },
   {
+    "id": 65,
     "issue": "How It Works 154",
     "title": "Tanning leather",
     "tags": [
@@ -1094,6 +623,7 @@
     ]
   },
   {
+    "id": 66,
     "issue": "How It Works 154",
     "title": "The lost settlement of Qumran",
     "tags": [
@@ -1103,6 +633,7 @@
     ]
   },
   {
+    "id": 67,
     "issue": "How It Works 154",
     "title": "Here comes the bin lorry",
     "tags": [
@@ -1111,6 +642,7 @@
     ]
   },
   {
+    "id": 68,
     "issue": "How It Works 154",
     "title": "Inside the world's fastest car",
     "tags": [
@@ -1119,6 +651,7 @@
     ]
   },
   {
+    "id": 69,
     "issue": "How It Works 154",
     "title": "The chemistry of tea & coffee",
     "tags": [
@@ -1129,6 +662,7 @@
     ]
   },
   {
+    "id": 70,
     "issue": "How It Works 154",
     "title": "Meningitis",
     "tags": [
@@ -1138,6 +672,7 @@
     ]
   },
   {
+    "id": 71,
     "issue": "How It Works 154",
     "title": "Weird and wonderful animal babies",
     "tags": [
@@ -1149,6 +684,7 @@
     ]
   },
   {
+    "id": 72,
     "issue": "How It Works 154",
     "title": "How Monument Valley formed",
     "tags": [
@@ -1157,6 +693,7 @@
     ]
   },
   {
+    "id": 73,
     "issue": "How It Works 154",
     "title": "Where rivers come from",
     "tags": [
@@ -1165,6 +702,7 @@
     ]
   },
   {
+    "id": 74,
     "issue": "How It Works 153",
     "title": "Incredible Olympics",
     "tags": [
@@ -1174,6 +712,7 @@
     ]
   },
   {
+    "id": 75,
     "issue": "How It Works 153",
     "title": "Inside 10 Downing Street",
     "tags": [
@@ -1182,6 +721,7 @@
     ]
   },
   {
+    "id": 76,
     "issue": "How It Works 153",
     "title": "Animal Olympians",
     "tags": [
@@ -1191,6 +731,7 @@
     ]
   },
   {
+    "id": 77,
     "issue": "How It Works 153",
     "title": "Why crabs are vital",
     "tags": [
@@ -1199,6 +740,7 @@
     ]
   },
   {
+    "id": 78,
     "issue": "How It Works 153",
     "title": "Earth's underground water stores",
     "tags": [
@@ -1207,6 +749,7 @@
     ]
   },
   {
+    "id": 79,
     "issue": "How It Works 153",
     "title": "The hidden universe",
     "tags": [
@@ -1215,6 +758,7 @@
     ]
   },
   {
+    "id": 80,
     "issue": "How It Works 153",
     "title": "Giant Magellan Telescope",
     "tags": [
@@ -1225,6 +769,7 @@
     ]
   },
   {
+    "id": 81,
     "issue": "How It Works 153",
     "title": "The rail revolution",
     "tags": [
@@ -1234,6 +779,7 @@
     ]
   },
   {
+    "id": 82,
     "issue": "How It Works 153",
     "title": "What's inside a car seat?",
     "tags": [
@@ -1242,6 +788,7 @@
     ]
   },
   {
+    "id": 83,
     "issue": "How It Works 153",
     "title": "Anatomy of rock concert",
     "tags": [
@@ -1251,6 +798,7 @@
     ]
   },
   {
+    "id": 84,
     "issue": "How It Works 153",
     "title": "How a fan oven works",
     "tags": [
@@ -1259,6 +807,7 @@
     ]
   },
   {
+    "id": 85,
     "issue": "How It Works 153",
     "title": "Floating research laboratories",
     "tags": [
@@ -1267,6 +816,7 @@
     ]
   },
   {
+    "id": 86,
     "issue": "How It Works 153",
     "title": "How we learn",
     "tags": [
@@ -1275,6 +825,7 @@
     ]
   },
   {
+    "id": 87,
     "issue": "How It Works 152",
     "title": "All about DNA",
     "tags": [
@@ -1284,6 +835,7 @@
     ]
   },
   {
+    "id": 88,
     "issue": "How It Works 152",
     "title": "Cosmetic chemistry",
     "tags": [
@@ -1292,6 +844,7 @@
     ]
   },
   {
+    "id": 89,
     "issue": "How It Works 152",
     "title": "Hydrogen: the unifying element",
     "tags": [
@@ -1300,6 +853,7 @@
     ]
   },
   {
+    "id": 90,
     "issue": "How It Works 152",
     "title": "How to get to the ISS",
     "tags": [
@@ -1308,6 +862,7 @@
     ]
   },
   {
+    "id": 91,
     "issue": "How It Works 152",
     "title": "The Solar System's outer limits",
     "tags": [
@@ -1315,6 +870,7 @@
     ]
   },
   {
+    "id": 92,
     "issue": "How It Works 152",
     "title": "Animal superpowers",
     "tags": [
@@ -1325,6 +881,7 @@
     ]
   },
   {
+    "id": 93,
     "issue": "How It Works 152",
     "title": "Inside Mount Etna",
     "tags": [
@@ -1333,6 +890,7 @@
     ]
   },
   {
+    "id": 94,
     "issue": "How It Works 152",
     "title": "Deep-sea blobfish",
     "tags": [
@@ -1341,6 +899,7 @@
     ]
   },
   {
+    "id": 95,
     "issue": "How It Works 152",
     "title": "Ninja vs Samurai",
     "tags": [
@@ -1350,6 +909,7 @@
     ]
   },
   {
+    "id": 96,
     "issue": "How It Works 152",
     "title": "Birth of the Euros",
     "tags": [
@@ -1358,6 +918,7 @@
     ]
   },
   {
+    "id": 97,
     "issue": "How It Works 152",
     "title": "The origin of origami",
     "tags": [
@@ -1366,6 +927,7 @@
     ]
   },
   {
+    "id": 98,
     "issue": "How It Works 152",
     "title": "Life-saving vehicles",
     "tags": [
@@ -1374,6 +936,7 @@
     ]
   },
   {
+    "id": 99,
     "issue": "How It Works 152",
     "title": "How cars keep you safe",
     "tags": [
@@ -1382,6 +945,7 @@
     ]
   },
   {
+    "id": 100,
     "issue": "How It Works 152",
     "title": "How are houses built?",
     "tags": [
@@ -1390,11 +954,610 @@
     ]
   },
   {
+    "id": 101,
     "issue": "How It Works 152",
     "title": "What's inside a fridge?",
     "tags": [
       "technology",
       "food"
+    ]
+  },
+  {
+    "id": 102,
+    "issue": "How It Works 001",
+    "title": "Extreme weather",
+    "tags": [
+      "geography",
+      "atmosphere",
+      "climate"
+    ]
+  },
+  {
+    "id": 103,
+    "issue": "How It Works 001",
+    "title": "Diamonds take forever",
+    "tags": [
+      "geography",
+      "geology",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 104,
+    "issue": "How It Works 001",
+    "title": "How do bees make honey?",
+    "tags": [
+      "biology",
+      "insects"
+    ]
+  },
+  {
+    "id": 105,
+    "issue": "How It Works 001",
+    "title": "How do snakes bite?",
+    "tags": [
+      "biology",
+      "reptiles"
+    ]
+  },
+  {
+    "id": 106,
+    "issue": "How It Works 001",
+    "title": "Birds' wings explained",
+    "tags": [
+      "biology",
+      "physics",
+      "birds"
+    ]
+  },
+  {
+    "id": 107,
+    "issue": "How It Works 001",
+    "title": "The ozone layer explained",
+    "tags": [
+      "geography",
+      "chemistry",
+      "atmosphere"
+    ]
+  },
+  {
+    "id": 108,
+    "issue": "How It Works 001",
+    "title": "The structure of the Earth's atmosphere",
+    "tags": [
+      "geography",
+      "atmosphere"
+    ]
+  },
+  {
+    "id": 109,
+    "issue": "How It Works 001",
+    "title": "The ultimate hunting machine",
+    "tags": [
+      "biology",
+      "fishes",
+      "predators"
+    ]
+  },
+  {
+    "id": 110,
+    "issue": "How It Works 001",
+    "title": "Anatomy of a volcano",
+    "tags": [
+      "geography",
+      "geology",
+      "volcanoes"
+    ]
+  },
+  {
+    "id": 111,
+    "issue": "How It Works 001",
+    "title": "How vision and sight works",
+    "tags": [
+      "biology",
+      "human body",
+      "physics"
+    ]
+  },
+  {
+    "id": 112,
+    "issue": "How It Works 001",
+    "title": "How do boats stay afloat?",
+    "tags": [
+      "physics",
+      "technology"
+    ]
+  },
+  {
+    "id": 113,
+    "issue": "How It Works 001",
+    "title": "Fish gills - a gas exchange story",
+    "tags": [
+      "biology",
+      "fishes"
+    ]
+  },
+  {
+    "id": 114,
+    "issue": "How It Works 001",
+    "title": "What is \"brain freeze\"",
+    "tags": [
+      "biology",
+      "human body"
+    ]
+  },
+  {
+    "id": 115,
+    "issue": "How It Works 001",
+    "title": "Thermite",
+    "tags": [
+      "chemistry",
+      "reactions"
+    ]
+  },
+  {
+    "id": 116,
+    "issue": "How It Works 001",
+    "title": "Understanding how x-rays work",
+    "tags": [
+      "physics",
+      "biology",
+      "technology"
+    ]
+  },
+  {
+    "id": 117,
+    "issue": "How It Works 001",
+    "title": "Static electricity",
+    "tags": [
+      "physics",
+      "electricity"
+    ]
+  },
+  {
+    "id": 118,
+    "issue": "How It Works 001",
+    "title": "The heart",
+    "tags": [
+      "biology",
+      "human body"
+    ]
+  },
+  {
+    "id": 119,
+    "issue": "How It Works 001",
+    "title": "How fireworks explode",
+    "tags": [
+      "physics",
+      "chemistry",
+      "reactions"
+    ]
+  },
+  {
+    "id": 120,
+    "issue": "How It Works 001",
+    "title": "Why do we get drunk?",
+    "tags": [
+      "biology",
+      "human body"
+    ]
+  },
+  {
+    "id": 121,
+    "issue": "How It Works 001",
+    "title": "Immunization",
+    "tags": [
+      "biology",
+      "human body"
+    ]
+  },
+  {
+    "id": 122,
+    "issue": "How It Works 001",
+    "title": "What are atoms?",
+    "tags": [
+      "physics",
+      "chemistry",
+      "particles"
+    ]
+  },
+  {
+    "id": 123,
+    "issue": "How It Works 001",
+    "title": "How electromagnets work",
+    "tags": [
+      "physics",
+      "electromagnetism"
+    ]
+  },
+  {
+    "id": 124,
+    "issue": "How It Works 001",
+    "title": "Large Hadron Collider",
+    "tags": [
+      "physics",
+      "particles",
+      "technology"
+    ]
+  },
+  {
+    "id": 125,
+    "issue": "How It Works 001",
+    "title": "Eurofighter Typhoon",
+    "tags": [
+      "technology",
+      "planes",
+      "military"
+    ]
+  },
+  {
+    "id": 126,
+    "issue": "How It Works 001",
+    "title": "Formula One cockpit",
+    "tags": [
+      "technology",
+      "cars"
+    ]
+  },
+  {
+    "id": 127,
+    "issue": "How It Works 001",
+    "title": "Car vending machine",
+    "tags": [
+      "technology",
+      "cars"
+    ]
+  },
+  {
+    "id": 128,
+    "issue": "How It Works 001",
+    "title": "Bugatti Veyron",
+    "tags": [
+      "technology",
+      "cars"
+    ]
+  },
+  {
+    "id": 129,
+    "issue": "How It Works 001",
+    "title": "How cat's eye reflectors work",
+    "tags": [
+      "technology",
+      "cars"
+    ]
+  },
+  {
+    "id": 130,
+    "issue": "How It Works 001",
+    "title": "Ceramic breaks",
+    "tags": [
+      "technology",
+      "cars"
+    ]
+  },
+  {
+    "id": 131,
+    "issue": "How It Works 001",
+    "title": "Ejection seats explained",
+    "tags": [
+      "technology",
+      "planes"
+    ]
+  },
+  {
+    "id": 132,
+    "issue": "How It Works 001",
+    "title": "What is the sound barrier",
+    "tags": [
+      "technology",
+      "planes",
+      "physics",
+      "sound"
+    ]
+  },
+  {
+    "id": 133,
+    "issue": "How It Works 001",
+    "title": "Nuclear submarine",
+    "tags": [
+      "technology",
+      "submarines",
+      "military"
+    ]
+  },
+  {
+    "id": 134,
+    "issue": "How It Works 001",
+    "title": "Inside the Sun",
+    "tags": [
+      "geography",
+      "astronomy",
+      "physics"
+    ]
+  },
+  {
+    "id": 135,
+    "issue": "How It Works 001",
+    "title": "Radio telescopes explained",
+    "tags": [
+      "technology",
+      "physics",
+      "waves"
+    ]
+  },
+  {
+    "id": 136,
+    "issue": "How It Works 001",
+    "title": "What are Saturn's rings made of",
+    "tags": [
+      "geography",
+      "astronomy",
+      "planets"
+    ]
+  },
+  {
+    "id": 137,
+    "issue": "How It Works 001",
+    "title": "Van Allen radiation belt explained",
+    "tags": [
+      "geography",
+      "physics",
+      "astronomy",
+      "particles"
+    ]
+  },
+  {
+    "id": 138,
+    "issue": "How It Works 001",
+    "title": "SpaceShipTwo",
+    "tags": [
+      "technology",
+      "spacecrafts"
+    ]
+  },
+  {
+    "id": 139,
+    "issue": "How It Works 001",
+    "title": "What is gravity?",
+    "tags": [
+      "physics",
+      "forces"
+    ]
+  },
+  {
+    "id": 140,
+    "issue": "How It Works 001",
+    "title": "How ocean tides work",
+    "tags": [
+      "geography",
+      "astronomy",
+      "hydrology"
+    ]
+  },
+  {
+    "id": 141,
+    "issue": "How It Works 001",
+    "title": "Adaptive optics recreate an image",
+    "tags": [
+      "physics",
+      "astronomy",
+      "optics"
+    ]
+  },
+  {
+    "id": 142,
+    "issue": "How It Works 001",
+    "title": "Space suits",
+    "tags": [
+      "physics",
+      "astronomy",
+      "technology"
+    ]
+  },
+  {
+    "id": 143,
+    "issue": "How It Works 001",
+    "title": "Dextre the space robot",
+    "tags": [
+      "technology",
+      "astronomy",
+      "robotics"
+    ]
+  },
+  {
+    "id": 144,
+    "issue": "How It Works 001",
+    "title": "How a bionic eye works",
+    "tags": [
+      "biology",
+      "technology",
+      "human body"
+    ]
+  },
+  {
+    "id": 145,
+    "issue": "How It Works 001",
+    "title": "Eco bulbs",
+    "tags": [
+      "ecology",
+      "technology",
+      "electricity"
+    ]
+  },
+  {
+    "id": 146,
+    "issue": "How It Works 001",
+    "title": "AIM-9 Sidewinder missiles",
+    "tags": [
+      "technology",
+      "military"
+    ]
+  },
+  {
+    "id": 147,
+    "issue": "How It Works 001",
+    "title": "How radar finds objects",
+    "tags": [
+      "technology",
+      "physics",
+      "waves"
+    ]
+  },
+  {
+    "id": 148,
+    "issue": "How It Works 001",
+    "title": "Understanding digital sound",
+    "tags": [
+      "technology",
+      "physics",
+      "waves"
+    ]
+  },
+  {
+    "id": 149,
+    "issue": "How It Works 001",
+    "title": "Starting your car without a key",
+    "tags": [
+      "technology",
+      "cars"
+    ]
+  },
+  {
+    "id": 150,
+    "issue": "How It Works 001",
+    "title": "Frothy beer head",
+    "tags": [
+      "chemistry",
+      "liquids",
+      "food"
+    ]
+  },
+  {
+    "id": 151,
+    "issue": "How It Works 001",
+    "title": "Protect your PC with firewalls",
+    "tags": [
+      "IT",
+      "security"
+    ]
+  },
+  {
+    "id": 152,
+    "issue": "How It Works 001",
+    "title": "Getting to grips with Geiger Counters",
+    "tags": [
+      "technology",
+      "particles",
+      "radiation",
+      "physics"
+    ]
+  },
+  {
+    "id": 153,
+    "issue": "How It Works 001",
+    "title": "GPS navigation",
+    "tags": [
+      "technology",
+      "geography",
+      "navigation"
+    ]
+  },
+  {
+    "id": 154,
+    "issue": "How It Works 001",
+    "title": "DVD burning explained",
+    "tags": [
+      "technology",
+      "IT",
+      "memory"
+    ]
+  },
+  {
+    "id": 155,
+    "issue": "How It Works 001",
+    "title": "Night-vision goggles",
+    "tags": [
+      "technology",
+      "military"
+    ]
+  },
+  {
+    "id": 156,
+    "issue": "How It Works 001",
+    "title": "How does DSLR camera work?",
+    "tags": [
+      "technology",
+      "photography"
+    ]
+  },
+  {
+    "id": 157,
+    "issue": "How It Works 001",
+    "title": "How 3D movies are made",
+    "tags": [
+      "physics",
+      "optics",
+      "technology"
+    ]
+  },
+  {
+    "id": 158,
+    "issue": "How It Works 001",
+    "title": "Inside a medieval castle",
+    "tags": [
+      "history",
+      "middle ages",
+      "buildings"
+    ]
+  },
+  {
+    "id": 159,
+    "issue": "How It Works 001",
+    "title": "Guillotine",
+    "tags": [
+      "history",
+      "inventions",
+      "french revolution"
+    ]
+  },
+  {
+    "id": 160,
+    "issue": "How It Works 001",
+    "title": "Mummification",
+    "tags": [
+      "history",
+      "ancient",
+      "egypt"
+    ]
+  },
+  {
+    "id": 161,
+    "issue": "How It Works 001",
+    "title": "How T-rex hunted prey",
+    "tags": [
+      "history",
+      "prehistory",
+      "dinosaurs",
+      "biology"
+    ]
+  },
+  {
+    "id": 162,
+    "issue": "How It Works 001",
+    "title": "Flintlock pistol",
+    "tags": [
+      "history",
+      "weapons"
+    ]
+  },
+  {
+    "id": 163,
+    "issue": "How It Works 001",
+    "title": "Heraldry explained",
+    "tags": [
+      "history",
+      "heraldry",
+      "middle ages"
     ]
   }
 ]
