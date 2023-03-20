@@ -4,12 +4,27 @@ import ArticlesList from '@/components/search/ArticlesList.vue';
 import SearchForm from '@/components/search/tag/SearchForm.vue';
 import type { Article } from '@/model/articles';
 import { type Ref, ref, computed, type ComputedRef } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 
 const form: Ref<{ selectedTags: ReadonlyArray<string> }> = ref({ selectedTags: [] });
 const articles: Ref<ReadonlyArray<Article>> = ref([]);
 
-Promise.resolve(listArticles()).then((data) => (articles.value = data
-  .sort((a, b) => a.title.localeCompare(b.title) || a.issue.localeCompare(b.issue))));
+Promise.resolve(listArticles()).then(
+  (data) =>
+    (articles.value = data.sort(
+      (a, b) => a.title.localeCompare(b.title) || a.issue.localeCompare(b.issue)
+    ))
+);
+
+const router = useRouter();
+const route = useRoute();
+
+const querySelectedTags: (string | null | undefined)[] = Array.isArray(route.query['selectedTags'])
+  ? route.query['selectedTags']
+  : [route.query['selectedTags']];
+form.value.selectedTags = querySelectedTags.filter(
+  (tag): tag is Exclude<Exclude<typeof tag, null>, undefined> => tag !== null && tag !== undefined
+);
 
 const tags: ComputedRef<ReadonlyArray<string>> = computed(() => {
   const tags = new Set<string>();
@@ -28,10 +43,12 @@ const filtered: ComputedRef<ReadonlyArray<Article>> = computed(() => {
 
 const addTag = (tagToAdd: string) => {
   form.value.selectedTags = [...form.value.selectedTags, tagToAdd];
+  router.replace({ path: route.path, query: { selectedTags: [...form.value.selectedTags] } });
 };
 
 const removeTag = (tagToRemove: string) => {
   form.value.selectedTags = form.value.selectedTags.filter((tag) => tag !== tagToRemove);
+  router.replace({ path: route.path, query: { selectedTags: [...form.value.selectedTags] } });
 };
 </script>
 

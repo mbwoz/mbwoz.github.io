@@ -10,12 +10,6 @@ defineEmits<{ (e: 'onClick'): void }>();
 </template>
 
 <style scoped>
-div {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
 button {
   background-color: var(--bgc_color);
   border-radius: 5px;
@@ -24,7 +18,7 @@ button {
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
-  min-width: 150px;
+  min-width: 135px;
   padding: 10px;
 }
 

@@ -11,7 +11,7 @@ defineProps<{ articles: ReadonlyArray<Article> }>();
       <div class="dot"></div>
       <LabelValue label="issue:" :value="issue" />
       <LabelValue label="title:" :value="title" />
-      <RouterLink :to="`/articles/${id}`" target="_blank">
+      <RouterLink :to="`/articles/${id}`">
         <div class="more"></div>
       </RouterLink>
     </li>
@@ -38,7 +38,7 @@ li .dot {
 
 li .more {
   border-bottom: 5px solid transparent;
-  border-left:10px solid var(--accent_color);
+  border-left: 10px solid var(--accent_color);
   border-top: 5px solid transparent;
   cursor: pointer;
   height: 0;

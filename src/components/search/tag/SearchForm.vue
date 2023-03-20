@@ -52,18 +52,13 @@ const addTag = () => {
 
 <style scoped>
 .form {
-  align-items: center;
-  display: flex;
+  display: grid;
   gap: 20px;
-  justify-content: center;
-}
-
-.form .tag-select {
-  flex-grow: 5;
+  grid-template-columns: 4fr 1fr;
 }
 
 .form .tag-submit {
-  flex-grow: 1;
+  margin: auto;
 }
 
 .tags {
