@@ -9,7 +9,7 @@ import { useRoute, useRouter } from 'vue-router';
 const form: Ref<{ selectedTags: ReadonlyArray<string> }> = ref({ selectedTags: [] });
 const articles: Ref<ReadonlyArray<Article>> = ref([]);
 
-Promise.resolve(listArticles()).then(
+listArticles().then(
   (data) =>
     (articles.value = data.sort(
       (a, b) => a.title.localeCompare(b.title) || a.issue.localeCompare(b.issue)
@@ -23,7 +23,7 @@ const querySelectedTags: (string | null | undefined)[] = Array.isArray(route.que
   ? route.query['selectedTags']
   : [route.query['selectedTags']];
 form.value.selectedTags = querySelectedTags.filter(
-  (tag): tag is Exclude<Exclude<typeof tag, null>, undefined> => tag !== null && tag !== undefined
+  (tag): tag is string => tag !== null && tag !== undefined
 );
 
 const tags: ComputedRef<ReadonlyArray<string>> = computed(() => {

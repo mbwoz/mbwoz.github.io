@@ -9,7 +9,7 @@ import { useRoute } from 'vue-router';
 const route = useRoute();
 const article: Ref<Article> = ref({ id: -1, issue: '', title: '', tags: [] });
 
-Promise.resolve(getArticle(Number(route.params.id))).then((data) => (article.value = data));
+getArticle(Number(route.params.id)).then((data) => (article.value = data));
 </script>
 
 <template>

@@ -1,0 +1,1 @@
+import{d as o,c as s,a,t as l,o as _,_ as i}from"./index-547fbf53.js";const u=o({__name:"SubmitButton",props:{label:null},emits:["onClick"],setup(e){return(n,t)=>(_(),s("div",null,[a("button",{onClick:t[0]||(t[0]=c=>n.$emit("onClick"))},l(e.label),1)]))}});const r=i(u,[["__scopeId","data-v-445d2554"]]);export{r as S};

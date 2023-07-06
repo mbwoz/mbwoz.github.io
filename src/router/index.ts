@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import TitleSearch from '@/views/TitleSearch.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,7 +10,7 @@ const router = createRouter({
     {
       path: '/title-search',
       name: 'title-search',
-      component: TitleSearch
+      component: () => import('@/views/TitleSearch.vue')
     },
     {
       path: '/tag-search',
